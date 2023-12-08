@@ -1,0 +1,59 @@
+@keyframes identifier {
+    from{background-color:green;}
+    to{background-color:brown;}
+}
+    .card{
+        background-color:#ce892e;
+        text-align:center;
+    }
+    body{
+        background-color: rgb(224, 176, 186);
+    }
+    nav{
+        height:3rem;
+        width:90rem;
+        margin:20px;
+        background-color:#418491;
+        border-radius:3px;
+    }
+    nav ul li{
+        text-align: justify;
+        text-overflow: ellipsis;
+        display: inline-block;
+        width: 120px;
+        background-color: chartreuse;
+        margin:3px;
+        padding: 6px;
+        border-radius:2px;
+    }
+    nav ul {
+        list-style-type: none;
+    }
+    nav ul li a{
+        text-decoration: none;
+        text-transform: inherit;
+    }
+    a:hover{
+        color: rgb(70, 76, 65);
+    }
+    .row{
+        padding:10px;
+        margin-left:10px;
+        animation-name:identifier;
+        animation-duration:10sec;
+    }
+    h1{
+        font-size:4rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 30px;
+        font-display: 30px;
+        color:#612d48;
+    }
+    p{
+        text-align:justify;
+        color:crimson;
+        font-size: larger;
+    }
+    footer{
+        
+    }
